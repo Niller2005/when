@@ -30,10 +30,14 @@
 </script>
 
 <main class="h-screen w-full">
-	<div class="flex h-full items-center justify-center">
+	<div class="flex h-full flex-col items-center justify-center gap-4">
 		<div class="flex flex-col items-center justify-center">
 			<h2 class="text-2xl">🦸Marvel Rivals Season 1 🦸</h2>
 			<h1 class="text-3xl tracking-normal">{startCountdown(new Date('2025-01-10T09:00:00Z'))}</h1>
+		</div>
+		<div class="flex flex-col items-center justify-center">
+			<h2 class="text-2xl">🦸Marvel Rivals Twitch Drops🦸</h2>
+			<h1 class="text-3xl tracking-normal">{startCountdown(new Date('2025-01-10T12:00:00Z'))}</h1>
 		</div>
 	</div>
 </main>
